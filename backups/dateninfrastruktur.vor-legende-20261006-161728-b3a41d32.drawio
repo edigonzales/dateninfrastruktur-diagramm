@@ -1,0 +1,385 @@
+<mxfile host="Electron" compressed="false">
+  <diagram id="dateninfrastruktur" name="Dateninfrastruktur">
+    <mxGraphModel dx="511" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" style="locked=0;" value="Grenzen" />
+        <mxCell id="eUaqmUjNvYTWksiLImcL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#999999;" value="" vertex="1">
+          <mxGeometry height="705" width="1403" x="227" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="infrastruktur-title" parent="1" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;" value="Dateninfrastruktur" vertex="1">
+          <mxGeometry height="28" width="760" x="247" y="121" as="geometry" />
+        </mxCell>
+        <mxCell id="zugaenge" parent="1" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;rounded=0;fillColor=#CCCCCC;strokeColor=#cccccc;" value="" vertex="1">
+          <mxGeometry height="550" width="350" x="1257" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zugaenge-title" parent="1" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontStyle=1;" value="Informationszugänge" vertex="1">
+          <mxGeometry height="28" width="310" x="1275" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="layer-systeme" parent="0" style="locked=0;" value="Systeme" />
+        <UserObject label="" quelle="Whitepaper, Abschnitte 2 und 4" id="quellen">
+          <mxCell parent="layer-systeme" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;rounded=1;arcSize=8;fillColor=#ffffff;" vertex="1">
+            <mxGeometry height="160" width="160" x="20" y="320" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="quellen-title" parent="quellen" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontStyle=1;" value="Datenquellen" vertex="1">
+          <mxGeometry height="41.93103448275862" width="132" x="14" y="14.344827586206895" as="geometry" />
+        </mxCell>
+        <mxCell id="quellen-body" parent="quellen" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;" value="Fachsysteme,&#xa;Dateien,&#xa;externe Lieferanten" vertex="1">
+          <mxGeometry height="52.9655172413793" width="132" x="14" y="61.79310344827586" as="geometry" />
+        </mxCell>
+        <mxCell id="quellen-status" parent="quellen" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=0;fontColor=#626262;" value="xxx" vertex="1">
+          <mxGeometry height="26.48275862068965" width="132" x="14" y="124.68965517241378" as="geometry" />
+        </mxCell>
+        <UserObject label="" quelle="Whitepaper, Abschnitte 2–3" id="integration">
+          <mxCell parent="layer-systeme" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;rounded=1;arcSize=8;fillColor=#ffffff;" vertex="1">
+            <mxGeometry height="160" width="175" x="257" y="320" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="integration-title" parent="integration" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontStyle=1;" value="Datenintegration" vertex="1">
+          <mxGeometry height="38" width="160" x="8" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="integration-body" parent="integration" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;textShadow=0;" value="Übernehmen, umformen&#xa;und zusammenführen (ETL)." vertex="1">
+          <mxGeometry height="60" width="147" x="14" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="integration-status" parent="integration" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=0;fontColor=#626262;" value="xxx" vertex="1">
+          <mxGeometry height="20" width="147" x="14" y="130" as="geometry" />
+        </mxCell>
+        <UserObject label="" quelle="Whitepaper, Abschnitte 2–3" id="pruefung">
+          <mxCell parent="layer-systeme" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;rounded=1;arcSize=8;fillColor=#ffffff;fontSize=14;" vertex="1">
+            <mxGeometry height="160" width="175" x="492" y="320" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="pruefung-title" parent="pruefung" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontStyle=1;" value="Qualitätsprüfung" vertex="1">
+          <mxGeometry height="38" width="161" x="7" y="14" as="geometry" />
+        </mxCell>
+        <mxCell id="pruefung-body" parent="pruefung" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;" value="Struktur, Vollständigkeit&#xa;und Plausibilität prüfen." vertex="1">
+          <mxGeometry height="60" width="147" x="14" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="pruefung-status" parent="pruefung" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=0;fontColor=#626262;" value="xxx" vertex="1">
+          <mxGeometry height="20" width="147" x="14" y="130" as="geometry" />
+        </mxCell>
+        <UserObject label="" quelle="Whitepaper, Abschnitte 2–3" id="ablage">
+          <mxCell parent="layer-systeme" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=12;fillColor=#ffffff;align=left;" vertex="1">
+            <mxGeometry height="180" width="175" x="727" y="310" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ablage-title" parent="ablage" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontStyle=1;" value="Datenablage" vertex="1">
+          <mxGeometry height="42.75" width="147" x="13" y="22.005" as="geometry" />
+        </mxCell>
+        <mxCell id="ablage-body" parent="ablage" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;" value="Geprüfte Datenstände&#xa;liegen zentral vor." vertex="1">
+          <mxGeometry height="67.5" width="147" x="14" y="63" as="geometry" />
+        </mxCell>
+        <mxCell id="ablage-status" parent="ablage" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=0;fontColor=#626262;" value="xxx" vertex="1">
+          <mxGeometry height="22.5" width="147" x="14" y="146.25" as="geometry" />
+        </mxCell>
+        <UserObject label="" quelle="Whitepaper, Abschnitte 2–3" id="berechnung">
+          <mxCell parent="layer-systeme" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;rounded=1;arcSize=8;fillColor=#ffffff;" vertex="1">
+            <mxGeometry height="160" width="190" x="962" y="320" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="berechnung-title" parent="berechnung" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontStyle=1;" value="Abfrage und&#xa;Berechnung" vertex="1">
+          <mxGeometry height="38" width="162" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="berechnung-body" parent="berechnung" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;" value="Verknüpfen, filtern und&#xa;Kennzahlen berechnen." vertex="1">
+          <mxGeometry height="60" width="162" x="14" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="berechnung-status" parent="berechnung" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=0;fontColor=#626262;" value="xxx" vertex="1">
+          <mxGeometry height="20" width="162" x="14" y="130" as="geometry" />
+        </mxCell>
+        <UserObject label="" quelle="Whitepaper, Abschnitte 2, 3 und 5; PDF-Ideenskizze" id="definitionen">
+          <mxCell parent="layer-systeme" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;shape=note;size=18;fillColor=#ffffff;" vertex="1">
+            <mxGeometry height="120" width="410" x="260" y="560" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="definitionen-title" parent="definitionen" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontStyle=1;" value="Fachliche Definitionen" vertex="1">
+          <mxGeometry height="38" width="382" x="14" y="13" as="geometry" />
+        </mxCell>
+        <mxCell id="definitionen-body" parent="definitionen" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;" value="Datenmodelle, Qualitätsregeln&#xa;und Kennzahlendefinitionen." vertex="1">
+          <mxGeometry height="38" width="382" x="14" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="definitionen-status" parent="definitionen" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=0;fontColor=#626262;" value="xxx" vertex="1">
+          <mxGeometry height="18" width="382" x="14" y="93" as="geometry" />
+        </mxCell>
+        <UserObject label="" quelle="PPTX, Folien 6–7; Whitepaper, Abschnitte 2 und 6" id="katalog">
+          <mxCell parent="layer-systeme" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;rounded=1;arcSize=8;fillColor=#ffffff;" vertex="1">
+            <mxGeometry height="105" width="310" x="1277" y="210" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="katalog-title" parent="katalog" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontStyle=1;" value="Datenkatalog und Bezug" vertex="1">
+          <mxGeometry height="26" width="282" x="14" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="katalog-body" parent="katalog" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;" value="Daten finden, verstehen und beziehen. Bezug nur für berechtigte Daten." vertex="1">
+          <mxGeometry height="34" width="282" x="14" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="katalog-status" parent="katalog" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=0;fontColor=#626262;" value="xxx" vertex="1">
+          <mxGeometry height="18" width="282" x="14" y="79" as="geometry" />
+        </mxCell>
+        <UserObject label="" quelle="PPTX, Folie 7 und Notizen" id="analyse">
+          <mxCell parent="layer-systeme" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;rounded=1;arcSize=8;fillColor=#ffffff;" vertex="1">
+            <mxGeometry height="105" width="310" x="1277" y="330" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="analyse-title" parent="analyse" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontStyle=1;" value="Freie Analyse" vertex="1">
+          <mxGeometry height="26" width="282" x="14" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="analyse-body" parent="analyse" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;" value="Selbst untersuchen und visualisieren." vertex="1">
+          <mxGeometry height="34" width="282" x="14" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="analyse-status" parent="analyse" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=0;fontColor=#626262;" value="xxx" vertex="1">
+          <mxGeometry height="18" width="282" x="14" y="79" as="geometry" />
+        </mxCell>
+        <UserObject label="" quelle="PPTX, Folie 9; Whitepaper, Abschnitte 4–5" id="berichte">
+          <mxCell parent="layer-systeme" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;rounded=1;arcSize=8;fillColor=#ffffff;" vertex="1">
+            <mxGeometry height="105" width="310" x="1277" y="450" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="berichte-title" parent="berichte" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontStyle=1;" value="Dashboards und Berichte" vertex="1">
+          <mxGeometry height="26" width="282" x="14" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="berichte-body" parent="berichte" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;" value="Kennzahlen und Entwicklungen&#xa;wiederkehrend darstellen." vertex="1">
+          <mxGeometry height="34" width="282" x="14" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="berichte-status" parent="berichte" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=0;fontColor=#626262;" value="xxx" vertex="1">
+          <mxGeometry height="18" width="282" x="14" y="79" as="geometry" />
+        </mxCell>
+        <UserObject label="" quelle="PPTX, Folie 8 und Notizen; Whitepaper, Abschnitt 5; PDF-Ideenskizze" id="ki">
+          <mxCell parent="layer-systeme" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;rounded=1;arcSize=8;fillColor=#ffffff;" vertex="1">
+            <mxGeometry height="105" width="310" x="1277" y="570" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ki-title" parent="ki" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=17;fontStyle=1;" value="KI-Dialog" vertex="1">
+          <mxGeometry height="26" width="282" x="14" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ki-body" parent="ki" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=14;fontStyle=0;" value="Fragen in Alltagssprache stellen." vertex="1">
+          <mxGeometry height="34" width="282" x="14" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ki-status" parent="ki" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=0;fontColor=#626262;" value="xxx" vertex="1">
+          <mxGeometry height="18" width="282" x="14" y="79" as="geometry" />
+        </mxCell>
+        <UserObject label="" quelle="Whitepaper, Abschnitt 3 und Querschnittsaufgaben" id="betreuung">
+          <mxCell parent="layer-systeme" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;rounded=1;arcSize=8;fillColor=#CCCCCC;strokeColor=none;" vertex="1">
+            <mxGeometry height="64" width="1360" x="247" y="731" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="betreuung-title" parent="betreuung" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=15;fontStyle=1;" value="Gilt übergreifend" vertex="1">
+          <mxGeometry height="24" width="200" x="18" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="betreuung-body" parent="betreuung" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=15;fontStyle=0;" value="Aktualisierung und Betrieb | Herkunft und Versionen | Zugriffe und Berechtigungen" vertex="1">
+          <mxGeometry height="25" width="1100" x="225" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="betreuung-status" parent="betreuung" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=0;" value="xxx" vertex="1">
+          <mxGeometry height="20" width="1100" x="225" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="eQA-SLMS7KyHBEevRLa_-6" edge="1" parent="layer-systeme" source="integration" style="endArrow=block;html=1;rounded=0;entryX=0.205;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#252525;endFill=1;strokeColor=#252525;startArrow=none;startFill=0;dashed=1;dashPattern=5 4;" target="definitionen" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="560" as="sourcePoint" />
+            <mxPoint x="130" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eQA-SLMS7KyHBEevRLa_-7" connectable="0" parent="eQA-SLMS7KyHBEevRLa_-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Frutiger LT Com;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;verwendet Datenmodelle&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2863" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eQA-SLMS7KyHBEevRLa_-10" parent="layer-systeme" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;editableCssRules=.*;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMTAuMzgyMzI0MjE4NzUiIGhlaWdodD0iMTkuOTQzODQ3NjU2MjUiIGlkPSJzdmczNDgyIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAuMDAwMDY0ODQ5ODUzNTE1NjI1IC0wLjEyOTQ1NTU2NjQwNjI1IDIxMC4zODIzMjQyMTg3NSAxOS45NDM4NDc2NTYyNSI+JiN4YTsgIDxkZWZzIGlkPSJkZWZzMzQ4NCI+JiN4YTsgICAgPGNsaXBQYXRoIGlkPSJjbGlwUGF0aDMwMTgiIGNsaXBQYXRoVW5pdHM9InVzZXJTcGFjZU9uVXNlIj4mI3hhOyAgICAgIDxwYXRoIGlkPSJwYXRoMzAyMCIgZD0ibSAzNzAuNTYsNzg5LjMyIDkuMjQsMCAwLDQuMzIgLTkuMjQsMCAwLC00LjMyIHoiLz4mI3hhOyAgICA8L2NsaXBQYXRoPiYjeGE7ICAgIDxjbGlwUGF0aCBpZD0iY2xpcFBhdGgzMDM2IiBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+JiN4YTsgICAgICA8cGF0aCBpZD0icGF0aDMwMzgiIGQ9Im0gNDE5LjU4LDc5OC45MiA1Ljk0LDAgMCw2LjI0IC01Ljk0LDAgMCwtNi4yNCB6Ii8+JiN4YTsgICAgPC9jbGlwUGF0aD4mI3hhOyAgICA8Y2xpcFBhdGggaWQ9ImNsaXBQYXRoMzA3NiIgY2xpcFBhdGhVbml0cz0idXNlclNwYWNlT25Vc2UiPiYjeGE7ICAgICAgPHBhdGggaWQ9InBhdGgzMDc4IiBkPSJtIDUyNC41Miw3ODkuNzQgMTEuMjgsMCAwLDkuOTYgLTExLjI4LDAgMCwtOS45NiB6Ii8+JiN4YTsgICAgPC9jbGlwUGF0aD4mI3hhOyAgPC9kZWZzPiYjeGE7ICAmI3hhOyAgPG1ldGFkYXRhIGlkPSJtZXRhZGF0YTM0ODciPiYjeGE7ICAgICYjeGE7ICAgICAgJiN4YTsgICAgICAgIGltYWdlL3N2Zyt4bWwmI3hhOyAgICAgICAgJiN4YTsgICAgICAgICYjeGE7ICAgICAgJiN4YTsgICAgJiN4YTsgIDwvbWV0YWRhdGE+JiN4YTsgIDxnIGlkPSJsYXllcjEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00OS4wOTgyLC0zMTkuNjA1MDQpIj4mI3hhOyAgICA8ZyBpZD0iZzM0NTUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMjAyLjIyNjgsLTY4LjE5OTQ2KSI+JiN4YTsgICAgICA8ZyB0cmFuc2Zvcm09Im1hdHJpeCgxLjI1LDAsMCwtMS4yNSw3OTEuOTUsMTM5NC4yNTQ1KSIgaWQ9ImczMDE2IiBjbGlwLXBhdGg9InVybCgjY2xpcFBhdGgzMDE4KSI+JiN4YTsgICAgICAgIDxwYXRoIGQ9Im0gMzc4Ljc4LDc5My4yMiBjIC0wLjc4MSwtMC45OTIgLTEuNzczLC0xLjg0NSAtMi44OCwtMi40NiAtMS4wOTMsLTAuNTU0IC0xLjUwNSwtMC41OCAtMi42NCwtMC45IGwgLTAuNDgsMCAtMC40MiwtMC4wNiAtMC4yNCwwIC0wLjE4LDAuMDYgLTAuNDIsMC4wNiAtMC45NiwtMC40MiBjIDMuNjY1LC0wLjgzNSA3LjE2NiwxLjE1NSA5LjE4LDQuMTQgbCAtMC45NiwtMC40MiIgc3R5bGU9ImZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6bm9uZSIgaWQ9InBhdGgzMDIyIi8+JiN4YTsgICAgICA8L2c+JiN4YTsgICAgICA8cGF0aCBpZD0icGF0aDMwMjQiIHN0eWxlPSJmaWxsOiMwMDAwMDA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOm5vbmUiIGQ9Im0gMTI3NS4zMjUsMzg3Ljg3OTUgMS4xMjUsMCAtMC43NSwzLjMgMy42NzUsLTMuMyAxLjQyNSwwIC00LjA1LDMuNjc1IDMsMy45IC0xLjQyNSwwIC0yLjc3NSwtMy42NzUgLTAuNzUsMy42NzUgLTEuMDUsMCAxLjU3NSwtNy41NzUiLz4mI3hhOyAgICAgIDxwYXRoIGlkPSJwYXRoMzAyNiIgc3R5bGU9ImZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6bm9uZSIgZD0ibSAxMjg5LjI3NSwzOTIuNjA0NSAtMywwIDIuMjUsLTMuNiAwLjc1LDMuNiB6IG0gLTYsMi44NSAxLjI3NSwwIDEuMiwtMS45NSAzLjY3NSwwIDAuMzc1LDEuOTUgMS4xMjUsMCAtMS42NSwtNy41NzUgLTEuMDUsMCAtNC45NSw3LjU3NSIvPiYjeGE7ICAgICAgPHBhdGggaWQ9InBhdGgzMDI4IiBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTpub25lIiBkPSJtIDEyOTYuNzc1LDM4Ny44Nzk1IDEuNDI1LDAgMi4xLDYuMyAxLjM1LC02LjMgMS4wNSwwIC0xLjY1LDcuNTc1IC0xLjQyNSwwIC0yLjEsLTYuMzc1IC0xLjM1LDYuMzc1IC0wLjk3NSwwIDEuNTc1LC03LjU3NSIvPiYjeGE7ICAgICAgPHBhdGggaWQ9InBhdGgzMDMwIiBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTpub25lIiBkPSJtIDEzMTMuMTI1LDM4OC43Nzk1IC0yLjMyNSwwIC0xLjQyNSw2LjY3NSAtMS4xMjUsMCAxLjQyNSwtNi42NzUgLTIuMzI1LDAgMC4yMjUsLTAuOSA1Ljc3NSwwIC0wLjIyNSwwLjkiLz4mI3hhOyAgICAgIDxnIHRyYW5zZm9ybT0ibWF0cml4KDEuMjUsMCwwLC0xLjI1LDc5MS45NSwxMzk0LjI1NDUpIiBpZD0iZzMwMzQiIGNsaXAtcGF0aD0idXJsKCNjbGlwUGF0aDMwMzYpIj4mI3hhOyAgICAgICAgPHBhdGggZD0ibSA0MjAuNDgsODAxLjUgYyAwLjExMywwLjY1NSAwLjAzOCwxLjAwMyAwLjQyLDEuNjIgMC4xNTQsMC41MDggMC42NTEsMC43MjcgMC44NCwxLjAyIGwgMC4xMiwwIDAuMTIsMC4wNiAwLjA2LDAuMDYgMC4xOCwwLjA2IDAuMjQsMC4xMiAwLjI0LDAgMC4xMiwwLjA2IDAuMzYsMCAwLjE4LC0wLjA2IDAuMTIsMCAwLjE4LC0wLjA2IDAuMTIsLTAuMTIgMC4xMiwtMC4wNiBjIDAuNzkyLC0wLjI5NyAwLjczMywtMi4yMDQgMC4zNiwtMi44MiAtMC4xNzQsLTAuODcxIC0xLjUxNCwtMi4wMDYgLTIuNTIsLTEuNjIgbCAtMC4xMiwwIC0wLjE4LDAuMDYgLTAuMTIsMC4xMiAtMC4xOCwwLjA2IC0wLjEyLDAuMTIgLTAuMTIsMC4wNiAtMC4wNiwwLjEyIGMgLTAuMjg2LDAuNDE3IC0wLjMxMSwwLjY5NyAtMC4zNiwxLjIgeiBtIC0wLjksMC4wNiAwLC0wLjM2IDAuMDYsLTAuMjQgMCwtMC4zIDAuMTIsLTAuMjQgMC4wNiwtMC4yNCAwLjEyLC0wLjE4IDAuMDYsLTAuMTIgMC4wNiwtMC4xMiAwLjEyLC0wLjA2IGMgMC40NzEsLTAuNjU4IDEuNTcxLC0wLjc5NCAyLjM0LC0wLjcyIDAuNDg1LDAuMDI4IDEuMjg5LDAuMzE3IDEuNjIsMC43MiAwLjY2OSwwLjQyNiAwLjk0MywxLjI3OSAxLjIsMS45OCAxLjE1Miw0Ljk3NyAtNS42OSw0LjYxMyAtNS43NiwtMC4xMiIgc3R5bGU9ImZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6bm9uZSIgaWQ9InBhdGgzMDQwIi8+JiN4YTsgICAgICA8L2c+JiN4YTsgICAgICA8cGF0aCBpZD0icGF0aDMwNDIiIHN0eWxlPSJmaWxsOiMwMDAwMDA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOm5vbmUiIGQ9Im0gMTMyOS4zMjUsMzg3Ljg3OTUgMS40MjUsMCAyLjE3NSw2LjMgMS4zNSwtNi4zIDAuOTc1LDAgLTEuNTc1LDcuNTc1IC0xLjQyNSwwIC0yLjEsLTYuMzc1IC0wLjA3NSwwIC0xLjI3NSw2LjM3NSAtMS4wNSwwIDEuNTc1LC03LjU3NSIvPiYjeGE7ICAgICAgPHBhdGggaWQ9InBhdGgzMDQ0IiBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTpub25lIiBkPSJtIDEyNjguMjc1LDM5NS4zNzk1IC0xLjIsMCAxLjY1LC03LjUgMS4yLDAgLTEuNjUsNy41Ii8+JiN4YTsgICAgICA8cGF0aCBpZD0icGF0aDMwNDYiIHN0eWxlPSJmaWxsOiMwMDAwMDA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOm5vbmUiIGQ9Im0gMTI2NS4xMjUsMzk1LjM3OTUgLTEuMiwwIDEuNjUsLTcuNSAxLjIsMCAtMS42NSw3LjUiLz4mI3hhOyAgICAgIDxwYXRoIGlkPSJwYXRoMzA0OCIgc3R5bGU9ImZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6bm9uZSIgZD0ibSAxMjYxLjk3NSwzOTUuMzc5NSAtMS4yLDAgMS42NSwtNy41IDEuMjc1LDAgLTEuNzI1LDcuNSIvPiYjeGE7ICAgICAgPHBhdGggaWQ9InBhdGgzMDUwIiBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTpub25lIiBkPSJtIDEyNTguODI1LDM5NS4zNzk1IC0xLjIsMCAxLjY1LC03LjUgMS4yLDAgLTEuNjUsNy41Ii8+JiN4YTsgICAgICA8cGF0aCBpZD0icGF0aDMwNTIiIHN0eWxlPSJmaWxsOiMwMDAwMDA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOm5vbmUiIGQ9Im0gMTI1NS42NzUsMzk1LjM3OTUgLTEuMiwwIDEuNjUsLTcuNSAxLjIsMCAtMS42NSw3LjUiLz4mI3hhOyAgICAgIDxwYXRoIGlkPSJwYXRoMzA1NCIgc3R5bGU9ImZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6bm9uZSIgZD0ibSAxMjUyLjYsMzk1LjQ1NDUgLTEuMjc1LDAgMS42NSwtNy41NzUgMS4yNzUsMCAtMS42NSw3LjU3NSIvPiYjeGE7ICAgICAgPHBhdGggaWQ9InBhdGgzMDU2IiBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTpub25lIiBkPSJtIDEzMzYuMjI1LDQwMy44NTQ1IGMgMS42MzUsMC41Nzg3NSAyLjIzMTMsMC43Mzg3NSAzLjk3NSwwLjY3NSAwLjY4MTMsLTAuMTU3NSAwLjQzMTMsMC4wMzEyIDEuMTI1LC0wLjMgMC4zMzI1LC0wLjEyMTI1IDAuMzYyNSwtMC4zNjg3NSAwLjUyNSwtMC41MjUgMC4xNDEzLC0wLjg0NzUgLTAuNDYxMiwtMS4wMjEyNSAtMS4xMjUsLTEuMzUgLTEuMDY3NSwtMC4zNjYyNSAtMi4xMzg3LC0wLjc1ODc1IC0zLC0xLjUgLTMuMjI4NywtNS42NDM3NSA0Ljg4NzUsLTcuMzY2MjUgOS4xNSwtNS41NSBsIC0wLjgyNSwyLjc3NSBjIC0xLjE1MjUsLTAuNDQ3NSAtMi4zNjEyLC0wLjcyIC0zLjYsLTAuNjc1IC0wLjUzODcsMC4xMzM3NSAtMS41MiwwLjE3ODc1IC0xLjU3NSwwLjkgbCAwLDAuMzc1IDAuMDc1LDAuMTUgMC4xNSwwLjA3NSBjIDAuNzUyNSwwLjU3ODc1IDAuNTE1LDAuMzE4NzUgMS4zNSwwLjY3NSAwLjU2MzgsMC4yMDc1IDEuODI3NSwwLjcyNSAyLjMyNSwxLjEyNSAwLjc1LDAuNTQ1IDAuNDEzOCwwLjI4NSAwLjgyNSwwLjgyNSAwLjg4MzgsMS41MzUgMC4xMiwzLjY4MTI1IC0xLjI3NSw0LjY1IC0yLjIzNSwxLjY3NSAtNi4zOCwxLjIxMzc1IC04LjkyNSwwLjUyNSBsIDAuODI1LC0yLjg1Ii8+JiN4YTsgICAgICA8cGF0aCBpZD0icGF0aDMwNTgiIHN0eWxlPSJmaWxsOiMwMDAwMDA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOm5vbmUiIGQ9Im0gMTM1OC44NzUsNDAwLjAyOTUgYyAwLjM4NSw0Ljk4IC01LjI4NjIsNS45OTEyNSAtNS4zMjUsMS42NSBsIDAsLTAuMzc1IDAuMDc1LC0wLjM3NSAwLjA3NSwtMC4zNzUgMC4wNzUsLTAuMyAwLjE1LC0wLjM3NSAwLjE1LC0wLjM3NSAwLjE1LC0wLjMgMC4xNSwtMC4zIDAuNzUsLTAuNzUgMC4zLC0wLjIyNSAwLjE1LC0wLjA3NSBjIDAuNDc3NSwtMC4yOTEyNSAwLjU0NzUsLTAuMTUyNSAwLjgyNSwtMC4zIDEuNjI2MywtMC4xMiAyLjU5LDAuODU4NzUgMi40NzUsMi40NzUgeiBtIDQuMjc1LDAgYyAtMC4wNzYsLTcuOTgyNSAtMTQuMTE3NSwtNy4wNTUgLTEzLjgsMS43MjUgLTAuMDYsNC4zMDM3NSAzLjM1NjMsNi4wMSA3LjM1LDUuNDc1IDQuMTQ3NSwtMC4yODc1IDYuNDY2MywtMy4wNjg3NSA2LjQ1LC03LjIiLz4mI3hhOyAgICAgIDxwYXRoIGlkPSJwYXRoMzA2MCIgc3R5bGU9ImZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6bm9uZSIgZD0ibSAxMzY4LjQ3NSwzODkuNTI5NSA0LjEyNSwwIC0zLjUyNSwxNy40NzUgLTQuMTI1LDAgMy41MjUsLTE3LjQ3NSIvPiYjeGE7ICAgICAgPHBhdGggaWQ9InBhdGgzMDYyIiBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTpub25lIiBkPSJtIDEzODMuMDI1LDQwMC4wMjk1IGMgLTAuMDkxLDEuNTg1IC0wLjM2ODcsMy4xNjg3NSAtMS44LDQuMDUgLTEuMjAyNSwwLjU3MjUgLTIuNTg2MiwwLjQzIC0zLjIyNSwtMC44MjUgLTEuMTk2MiwtMi41OTc1IDAuOTcyNSwtNi44NiA0LjEyNSwtNS40IGwgMCwwLjA3NSAwLjE1LDAuMDc1IDAuMTUsMC4xNSAwLjA3NSwwLjE1IDAuMTUsMC4xNSAwLjA3NSwwLjIyNSAwLjE1LDAuMjI1IDAuMDc1LDAuMTUgMCwwLjUyNSAwLjA3NSwwLjE1IDAsMC4zIHogbSA0LjIsMCBjIDAuMDY1LC03Ljg4NSAtMTQuMDA4NywtNy4xNTI1IC0xMy44LDEuNzI1IDAuMDg1LDguNzcgMTQuODYzOCw2LjY5MjUgMTMuOCwtMS43MjUiLz4mI3hhOyAgICAgIDxwYXRoIGlkPSJwYXRoMzA2NCIgc3R5bGU9ImZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6bm9uZSIgZD0ibSAxMzkwLjMsMzk0Ljg1NDUgMi40LDAgMC41MjUsLTIuNTUgNC4zNSwtMS4yIC0wLjgyNSwzLjc1IDIuNzc1LDAgLTAuNDUsMyAtMywwIGMgLTAuMzM2MiwyLjE0NjI1IC0wLjgsMy40ODg3NSAtMS4wNSw1LjQ3NSBsIDAsMC4xNSAwLjA3NSwwLjE1IDAuMTUsMC40NSAwLjA3NSwwLjE1IDAuMDc1LDAuMDc1IGMgMC44NDEzLDAuNjIxMjUgMS4zNzg4LDAuMzEzNzUgMi4zMjUsMCBsIC0wLjQ1LDIuNzc1IGMgLTcuODIxMiwxLjM1ODc1IC02LjY4MzcsLTMuNTI1IC01LjI1LC05LjIyNSBsIC0yLjE3NSwwIDAuNDUsLTMiLz4mI3hhOyAgICAgIDxwYXRoIGlkPSJwYXRoMzA2NiIgc3R5bGU9ImZpbGw6IzAwMDAwMDtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6bm9uZSIgZD0ibSAxNDA1LjA3NSwzODkuNTI5NSA0LjEyNSwwIC0xLjUsNy4xMjUgMC4wNzUsMCAwLjE1LC0wLjE1IDAuMTUsLTAuMjI1IDAuMjI1LC0wLjIyNSAwLjIyNSwtMC4xNSAwLjE1LC0wLjIyNSAwLjQ1LC0wLjMgMC4zLC0wLjE1IDAuMjI1LC0wLjE1IGMgMS4xNjc1LC0wLjUzMTI1IDIuNjI2MywtMC42NTI1IDMuODI1LC0wLjE1IDAuODg1LDAuNDA2MjUgMS41MjI1LDEuMjU3NSAxLjgsMi4xNzUgMC4xODI1LDAuNDgzNzUgMC4zNSwxLjIyMTI1IDAuMywxLjcyNSBsIDAsMC41MjUgLTAuMDc1LDAuNiAtMC4xNSwwLjYgLTAuMDc1LDAuODI1IC0xLjEyNSw1LjYyNSAtNC4yNzUsMCAxLjIsLTUuNjI1IDAuMTUsLTAuOTc1IDAuMDc1LC0wLjQ1IDAsLTAuNDUgYyAwLjAyNiwtMC42MjUgLTAuMDMxLC0wLjM0NzUgLTAuMjI1LC0wLjc1IGwgMCwtMC4xNSAtMC4wNzUsLTAuMDc1IC0wLjE1LC0wLjE1IC0wLjE1LDAgYyAtMC4zOTEyLC0wLjM0Mzc1IC0wLjQxODcsLTAuMTM4NzUgLTAuNzUsLTAuMyAtMC44ODc1LDAuMDE1IC0xLjc1NjIsMC4zMjUgLTIuMzI1LDEuMDUgLTAuMjI4NywwLjMyMTI1IC0wLjYzMzcsMC45Njc1IC0wLjY3NSwxLjM1IGwgLTAuMTUsMC4zIDAsMC4zIC0wLjA3NSwwLjM3NSAtMS4yLDUuNTUgLTQuMTI1LDAgMy42NzUsLTE3LjQ3NSIvPiYjeGE7ICAgICAgPHBhdGggaWQ9InBhdGgzMDY4IiBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTpub25lIiBkPSJtIDE0MzEuMzI1LDQwMy44NTQ1IC0wLjMsMS41NzUgLTAuMDc1LDAuODI1IC0wLjE1LDAuNzUgLTMuNzUsMCAwLjMsLTEuOTUgLTAuMDc1LDAgLTAuNDUsMC41MjUgLTAuMjI1LDAuMjI1IC0wLjIyNSwwLjE1IC0wLjIyNSwwLjIyNSAtMC4yMjUsMC4yMjUgLTAuMywwLjE1IC0wLjIyNSwwLjE1IC0wLjYsMC4zIGMgLTEuMTg1LDAuMzQgLTIuNTEyNSwwLjQ5ODc1IC0zLjY3NSwwIC0wLjg5NSwtMC40Mzc1IC0xLjU5NzUsLTEuMjkxMjUgLTEuODc1LC0yLjI1IGwgLTAuMDc1LC0wLjE1IDAsLTAuMjI1IC0wLjA3NSwtMC4zNzUgLTAuMDc1LC0wLjQ1IDAsLTAuOTc1IDAuMDc1LC0wLjUyNSAwLjA3NSwtMC42NzUgMC4xNSwtMC44MjUgMS4xMjUsLTUuNyA0LjIsMCAtMS4xMjUsNS43IC0wLjA3NSwwLjQ1IC0wLjA3NSwwLjQ1IC0wLjA3NSwwLjUyNSAwLDAuODI1IDAuMDc1LDAuMTUgMC4wNzUsMC4yMjUgMC4wNzUsMC4xNSAwLjA3NSwwLjA3NSAwLjE1LDAuMDc1IDAuMDc1LDAuMTUgMC4xNSwwLjA3NSAwLjE1LDAgMC4zLDAuMTUgMC4yMjUsMCBjIDAuNzQ1LDAuMTE1IDEuOTA4OCwtMC40MDI1IDIuMjUsLTEuMDUgbCAwLjIyNSwtMC4yMjUgMC4xNSwtMC4yMjUgMC4xNSwtMC4zIDAuMTUsLTAuMyAwLjA3NSwtMC4zIDAuMDc1LC0wLjMgMC4wNzUsLTAuMTUgMCwtMC4xNSAwLjA3NSwtMC4zNzUgMS4yLC01LjYyNSA0LjEyNSwwIC0xLjg3NSw5Ii8+JiN4YTsgICAgICA8cGF0aCBpZD0icGF0aDMwNzAiIHN0eWxlPSJmaWxsOiMwMDAwMDA7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOm5vbmUiIGQ9Im0gMTQ0MS43NSwzOTQuODU0NSAtMC40NSwyLjU1IDAuMDc1LDAgYyAxLjAxNSwtMi4yMTI1IDMuMDA2MywtMy40MzUgNS40LC0yLjQ3NSBsIC0wLjk3NSwzLjY3NSBjIC01LjM2NjIsLTIuNjMyNSAtNS4zNDUsNS41ODUgLTYuMDc1LDguNCBsIC00LjA1LDAgMS44LC04LjkyNSAwLjMsLTEuNTc1IDAuMDc1LC0wLjgyNSAwLjE1LC0wLjgyNSAzLjc1LDAiLz4mI3hhOyAgICAgIDxnIHRyYW5zZm9ybT0ibWF0cml4KDEuMjUsMCwwLC0xLjI1LDc5MS45NSwxMzk0LjI1NDUpIiBpZD0iZzMwNzQiIGNsaXAtcGF0aD0idXJsKCNjbGlwUGF0aDMwNzYpIj4mI3hhOyAgICAgICAgPHBhdGggZD0ibSA1MjYuMDIsNzk2Ljk0IDAuMjQsMS4yNiAwLjA2LDAuNjYgMC4wNiwwLjY2IDMuMDYsMCAtMC4yNCwtMS42MiBjIDEuMjI0LDEuNTQ1IDMuMjM5LDIuMjkyIDUuMSwxLjUgMC44MjIsLTAuNTExIDEuMDQ4LC0wLjk3MiAxLjM4LC0xLjg2IDAuMTk5LC0wLjQ1NyAwLjA5NiwtMC45NTggMC4xMiwtMS40NCBsIDAsLTAuNjYgLTAuMTIsLTAuNDggLTAuMTIsLTAuNjYgLTAuODQsLTQuNSAtMy40MiwwIDAuOSw0LjUgMC4xOCwwLjc4IDAuMDYsMC4zNiAwLDAuNiBjIC0wLjAzMSwwLjI0OSAtMC4yNjEsMC40MzYgLTAuMzYsMC42NiBsIC0wLjEyLDAgLTAuMjQsMC4xMiAtMC4wNiwwLjA2IC0wLjE4LDAgLTAuMTIsMC4wNiBjIC0wLjQ2MSwtMC4wMjEgLTAuOTI5LC0wLjEwNCAtMS4zMiwtMC4zNiAtMC40MDIsLTAuMjUzIC0wLjcwNCwtMC42NSAtMC45LC0xLjA4IGwgLTAuMTIsLTAuMjQgLTAuMDYsLTAuMjQgLTAuMTIsLTAuMjQgMCwtMC4xMiAtMC4wNiwtMC4xMiAtMC4wNiwtMC4zIC0wLjksLTQuNDQgLTMuMywwIDEuNSw3LjE0IiBzdHlsZT0iZmlsbDojMDAwMDAwO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTpub25lIiBpZD0icGF0aDMwODAiLz4mI3hhOyAgICAgIDwvZz4mI3hhOyAgICA8L2c+JiN4YTsgIDwvZz4mI3hhOzwvc3ZnPg==;" value="" vertex="1">
+          <mxGeometry height="20" width="210" x="24" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="layer-datenfluesse" parent="0" style="locked=0;" value="Datenflüsse" />
+        <mxCell id="fluss-quellen" edge="1" parent="layer-datenfluesse" source="quellen" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;endSize=7;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitPerimeter=1;entryX=0;entryY=0.5;entryPerimeter=1;" target="integration" value="Quelldaten">
+          <mxGeometry relative="1" x="0.013" y="28" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fluss-integration" edge="1" parent="layer-datenfluesse" source="integration" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;endSize=7;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitPerimeter=1;entryX=0;entryY=0.5;entryPerimeter=1;" target="pruefung" value="übernommene&#xa;Daten">
+          <mxGeometry relative="1" y="28" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fluss-pruefung" edge="1" parent="layer-datenfluesse" source="pruefung" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;endSize=7;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitPerimeter=1;entryX=0;entryY=0.5;entryPerimeter=1;" target="ablage" value="geprüfte&#xa;Daten">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-28" as="offset" />
+            <Array as="points">
+              <mxPoint x="690" y="400" />
+              <mxPoint x="690" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fluss-ablage" edge="1" parent="layer-datenfluesse" source="ablage" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;endSize=7;endFill=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitPerimeter=1;entryX=0;entryY=0.5;entryPerimeter=1;" target="berechnung" value="Daten zur&#xa;Auswertung">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-28" as="offset" />
+            <Array as="points">
+              <mxPoint x="920" y="400" />
+              <mxPoint x="920" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fluss-katalog" edge="1" parent="layer-datenfluesse" source="ablage" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;endSize=7;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;exitPerimeter=1;entryX=0;entryY=0.5;entryPerimeter=1;" target="katalog" value="Daten und Metadaten">
+          <mxGeometry relative="1" x="-0.0072" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="814.5" y="262.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fluss-analyse" edge="1" parent="layer-datenfluesse" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;endSize=7;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;entryX=0;entryY=0.5;entryPerimeter=1;" value="">
+          <mxGeometry relative="1" x="0.5086" y="8" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1152" y="380" />
+            </Array>
+            <mxPoint x="1152" y="380" as="sourcePoint" />
+            <mxPoint x="1277" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fluss-ki" edge="1" parent="layer-datenfluesse" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;endSize=7;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitPerimeter=1;entryX=0;entryY=0.5;entryPerimeter=1;" value="">
+          <mxGeometry relative="1" x="0.0547" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1152" y="380" />
+              <mxPoint x="1180" y="380" />
+              <mxPoint x="1180" y="612.5" />
+            </Array>
+            <mxPoint x="1152" y="390" as="sourcePoint" />
+            <mxPoint x="1277" y="612.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nutzt-regeln" edge="1" parent="layer-datenfluesse" source="pruefung" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;endSize=7;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.7;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;entryPerimeter=1;dashed=1;dashPattern=5 4;" target="definitionen" value="verwendet Qualitätsregeln">
+          <mxGeometry relative="1" x="-0.1765" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="612" y="500" />
+              <mxPoint x="697" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nutzt-kennzahlen" edge="1" parent="layer-datenfluesse" source="berechnung" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;endSize=7;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitPerimeter=1;entryX=1;entryY=0.5;entryPerimeter=1;dashed=1;dashPattern=5 4;" target="definitionen" value="verwendet Kennzahlendefinitionen">
+          <mxGeometry relative="1" x="0.0133" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1057" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fluss-berichte" edge="1" parent="layer-datenfluesse" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#252525;strokeWidth=1;whiteSpace=wrap;edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;endSize=7;endFill=1;fontSize=12;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitPerimeter=1;entryX=0;entryY=0.5;entryPerimeter=1;" value="Auswertungs-&#xa;ergebnisse">
+          <mxGeometry relative="1" x="-0.1444" y="30" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1152" y="380" />
+              <mxPoint x="1180" y="380" />
+              <mxPoint x="1180" y="493.5" />
+            </Array>
+            <mxPoint x="1152" y="391" as="sourcePoint" />
+            <mxPoint x="1277" y="493.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="layer-bi" parent="0" style="locked=0;" value="BI-Beiträge" />
+        <mxCell id="bi-integration-1" parent="layer-bi" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;ellipse;perimeter=ellipsePerimeter;fillColor=#17699b;strokeColor=#17699b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="1" vertex="1">
+          <mxGeometry height="25" width="25" x="388" y="307" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-pruefung-1" parent="layer-bi" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;ellipse;perimeter=ellipsePerimeter;fillColor=#17699b;strokeColor=#17699b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="1" vertex="1">
+          <mxGeometry height="25" width="25" x="623" y="308" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-ablage-1" parent="layer-bi" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;ellipse;perimeter=ellipsePerimeter;fillColor=#17699b;strokeColor=#17699b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="1" vertex="1">
+          <mxGeometry height="25" width="25" x="858" y="306" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-berechnung-2" parent="layer-bi" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;ellipse;perimeter=ellipsePerimeter;fillColor=#17699b;strokeColor=#17699b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="2" vertex="1">
+          <mxGeometry height="25" width="25" x="1073" y="307" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-berechnung-3" parent="layer-bi" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;ellipse;perimeter=ellipsePerimeter;fillColor=#17699b;strokeColor=#17699b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="3" vertex="1">
+          <mxGeometry height="25" width="25" x="1108" y="307" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-definitionen-2" parent="layer-bi" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;ellipse;perimeter=ellipsePerimeter;fillColor=#17699b;strokeColor=#17699b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="2" vertex="1">
+          <mxGeometry height="25" width="25" x="802" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-katalog-1" parent="layer-bi" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;ellipse;perimeter=ellipsePerimeter;fillColor=#17699b;strokeColor=#17699b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="1" vertex="1">
+          <mxGeometry height="25" width="25" x="1508" y="197" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-katalog-3" parent="layer-bi" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;ellipse;perimeter=ellipsePerimeter;fillColor=#17699b;strokeColor=#17699b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="3" vertex="1">
+          <mxGeometry height="25" width="25" x="1543" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-analyse-3" parent="layer-bi" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;ellipse;perimeter=ellipsePerimeter;fillColor=#17699b;strokeColor=#17699b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="3" vertex="1">
+          <mxGeometry height="25" width="25" x="1543" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-berichte-4" parent="layer-bi" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;ellipse;perimeter=ellipsePerimeter;fillColor=#17699b;strokeColor=#17699b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="4" vertex="1">
+          <mxGeometry height="25" width="25" x="1543" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="bi-betreuung-4" parent="layer-bi" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;ellipse;perimeter=ellipsePerimeter;fillColor=#17699b;strokeColor=#17699b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="4" vertex="1">
+          <mxGeometry height="25" width="25" x="1563" y="717" as="geometry" />
+        </mxCell>
+        <mxCell id="eUaqmUjNvYTWksiLImcL-4" parent="0" value="Werkzeuge und Frameworks" />
+        <mxCell id="eUaqmUjNvYTWksiLImcL-9" parent="eUaqmUjNvYTWksiLImcL-4" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;strokeColor=none;fillColor=#00994D;fontSize=14;fontFamily=Frutiger LT Com;" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-weight: 700;&quot;&gt;1&lt;/span&gt;" vertex="1">
+          <mxGeometry height="25" width="25" x="350" y="307" as="geometry" />
+        </mxCell>
+        <mxCell id="eUaqmUjNvYTWksiLImcL-10" parent="eUaqmUjNvYTWksiLImcL-4" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;strokeColor=none;fillColor=#00994D;fontStyle=1;fontColor=#FFFFFF;fontSize=14;fontFamily=Frutiger LT Com;" value="&lt;div&gt;2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="25" width="25" x="585" y="307" as="geometry" />
+        </mxCell>
+        <mxCell id="eUaqmUjNvYTWksiLImcL-12" parent="eUaqmUjNvYTWksiLImcL-4" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;strokeColor=none;fillColor=#00994D;fontStyle=1;fontColor=#FFFFFF;fontSize=14;fontFamily=Frutiger LT Com;" value="3" vertex="1">
+          <mxGeometry height="25" width="25" x="585" y="547" as="geometry" />
+        </mxCell>
+        <mxCell id="eUaqmUjNvYTWksiLImcL-13" parent="eUaqmUjNvYTWksiLImcL-4" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;strokeColor=none;fillColor=#00994D;fontStyle=1;fontColor=#FFFFFF;fontSize=14;fontFamily=Frutiger LT Com;" value="4" vertex="1">
+          <mxGeometry height="25" width="25" x="820" y="306" as="geometry" />
+        </mxCell>
+        <mxCell id="eUaqmUjNvYTWksiLImcL-14" parent="eUaqmUjNvYTWksiLImcL-4" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;strokeColor=none;fillColor=#00994D;fontStyle=1;fontColor=#FFFFFF;fontSize=14;fontFamily=Frutiger LT Com;" value="5" vertex="1">
+          <mxGeometry height="25" width="25" x="1038" y="307" as="geometry" />
+        </mxCell>
+        <mxCell id="eUaqmUjNvYTWksiLImcL-15" parent="eUaqmUjNvYTWksiLImcL-4" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;strokeColor=none;fillColor=#00994D;fontStyle=1;fontColor=#FFFFFF;fontSize=14;fontFamily=Frutiger LT Com;" value="6" vertex="1">
+          <mxGeometry height="25" width="25" x="1473" y="197" as="geometry" />
+        </mxCell>
+        <mxCell id="eUaqmUjNvYTWksiLImcL-16" parent="eUaqmUjNvYTWksiLImcL-4" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;strokeColor=none;fillColor=#00994D;fontStyle=1;fontColor=#FFFFFF;fontSize=14;fontFamily=Frutiger LT Com;" value="7" vertex="1">
+          <mxGeometry height="25" width="25" x="1507" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="eUaqmUjNvYTWksiLImcL-17" parent="eUaqmUjNvYTWksiLImcL-4" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;strokeColor=none;fillColor=#00994D;fontStyle=1;fontColor=#FFFFFF;fontSize=14;fontFamily=Frutiger LT Com;" value="8" vertex="1">
+          <mxGeometry height="25" width="25" x="1506" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="eUaqmUjNvYTWksiLImcL-18" parent="eUaqmUjNvYTWksiLImcL-4" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;strokeColor=none;fillColor=#00994D;fontStyle=1;fontColor=#FFFFFF;fontSize=14;fontFamily=Frutiger LT Com;" value="9" vertex="1">
+          <mxGeometry height="25" width="25" x="1542" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="layer-anmerkungen" parent="0" style="locked=0;" value="Anmerkungen" />
+        <mxCell id="title" parent="layer-anmerkungen" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=27;fontStyle=1;labelBorderColor=none;textShadow=0;labelBackgroundColor=none;" value="Dateninfrastruktur: gemeinsame Grundlagen, verschiedene Nutzungen" vertex="1">
+          <mxGeometry height="40" width="1264" x="336" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="scope" parent="layer-anmerkungen" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontStyle=0;" value="Mögliches Zusammenspiel funktionaler Bausteine. Umfang und Leistungen müssen geklärt werden." vertex="1">
+          <mxGeometry height="24" width="1570" x="30" y="62" as="geometry" />
+        </mxCell>
+        <mxCell id="ki-voraussetzung" parent="layer-anmerkungen" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=0;" value="Voraussetzung: kantonale KI-Infrastruktur" vertex="1">
+          <mxGeometry height="24" width="315" x="1277" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="stand" parent="layer-anmerkungen" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=0;" value="xxxxxxxx" vertex="1">
+          <mxGeometry height="18" width="1570" x="30" y="1144" as="geometry" />
+        </mxCell>
+        <mxCell id="layer-legende" parent="0" style="locked=0;" value="Legende" />
+        <mxCell id="legende-titel" parent="layer-legende" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=15;fontStyle=1;" value="Zeichenkonvention" vertex="1">
+          <mxGeometry height="25" width="620" x="940" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="legende-formen" parent="layer-legende" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=0;" value="Rechteck: Funktion   ·   Zylinder: Datenablage   ·   Dokument: Definitionen" vertex="1">
+          <mxGeometry height="24" width="620" x="940" y="907" as="geometry" />
+        </mxCell>
+        <mxCell id="legende-pfeile" parent="layer-legende" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=0;" value="Durchgezogen: Datenfluss   ·   Gestrichelt: verwendet Definitionen" vertex="1">
+          <mxGeometry height="24" width="620" x="940" y="933" as="geometry" />
+        </mxCell>
+        <mxCell id="legende-hinweise" parent="layer-legende" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=0;" value="Datenfluss bedeutet nicht automatisch eine dauerhafte Kopie.&#xa;Blaue Nummern: Leistungsbeispiele, keine Reihenfolge." vertex="1">
+          <mxGeometry height="34" width="620" x="940" y="953" as="geometry" />
+        </mxCell>
+        <mxCell id="legende-status" parent="layer-legende" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=0;" value="AGI-Fähigkeit: übertragbar · Portal: gezeigt&#xa;Ausbauidee: Vorschlag · Zu klären: offen" vertex="1">
+          <mxGeometry height="34" width="620" x="940" y="987" as="geometry" />
+        </mxCell>
+        <mxCell id="eUaqmUjNvYTWksiLImcL-27" parent="layer-legende" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=19;fontStyle=1;" value="Erläuterungen in &quot;Dateninfrastruktur und BI.doc&quot;" vertex="1">
+          <mxGeometry height="30" width="530" x="30" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="eUaqmUjNvYTWksiLImcL-28" parent="layer-legende" style="html=0;fontFamily=Frutiger LT Com;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;ellipse;perimeter=ellipsePerimeter;fillColor=#17699b;strokeColor=#17699b;fontColor=#ffffff;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;" value="x" vertex="1">
+          <mxGeometry height="25" width="25" x="30" y="921" as="geometry" />
+        </mxCell>
+        <mxCell id="eUaqmUjNvYTWksiLImcL-29" parent="layer-legende" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=15;fontStyle=0;" value="BI-Dienstleistungen (Beiträge Dateninfrastruktur an BI)" vertex="1">
+          <mxGeometry height="34" width="350" x="66" y="916" as="geometry" />
+        </mxCell>
+        <mxCell id="eUaqmUjNvYTWksiLImcL-30" parent="layer-legende" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;strokeColor=none;fillColor=#00994D;fontStyle=1;fontColor=#FFFFFF;fontSize=14;fontFamily=Frutiger LT Com;" value="x" vertex="1">
+          <mxGeometry height="25" width="25" x="30" y="973" as="geometry" />
+        </mxCell>
+        <mxCell id="eUaqmUjNvYTWksiLImcL-31" parent="layer-legende" style="html=0;fontFamily=Arial;fontColor=#252525;strokeColor=#737373;strokeWidth=1;whiteSpace=wrap;text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=15;fontStyle=0;" value="Werkzeuge und Frameworks" vertex="1">
+          <mxGeometry height="34" width="350" x="66" y="969" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
